@@ -1,0 +1,70 @@
+* { box-sizing: border-box; padding: 0px; margin: 0px; font-family: "Gill Sans Extrabold", Helvetica, sans-serif; font-size: 18px;}
+
+:root{
+    --marginSize: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+    padding: var(--marginSize);
+}
+
+h2 {
+    font-size: 125%;
+}
+
+p {
+    padding-bottom: 5px;
+}
+
+#container {
+ padding: 0px var(--marginSize);
+  
+}
+
+div {    
+    position: relative;
+}
+
+.cl1, .cl2, .cl3 {
+    background-color: aquamarine;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    padding: 45px var(--marginSize) 0px;
+    margin: 0px var(--marginSize) calc(2*var(--marginSize));
+  }
+
+.title1, .title2, .title3 {
+    text-align: center;
+    width: 120px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: coral;
+    padding: 5px;  
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border-bottom-left-radius: 10px;    
+}
+
+@media (min-width: 992px){
+    .cl1, .cl2, .cl3 {
+       width: calc(33.33% - 2*var(--marginSize));        
+      }
+} 
+
+@media (min-width: 768px) and (max-width: 991px){
+    .cl1, .cl2 {
+        width: calc(50% - 2*var(--marginSize));
+      }
+
+    .cl3 {
+        width: calc(100% - 2*var(--marginSize));
+    }
+}
+
+@media (max-width: 767px) {
+    .cl1, .cl2, .cl3 {
+        width: calc(100% - 2*var(--marginSize));
+      }
+}
