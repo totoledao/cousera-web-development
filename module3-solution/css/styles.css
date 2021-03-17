@@ -1,12 +1,27 @@
+:root{
+    --marginSize: 20px;
+    --colorBg: aquamarine;
+    --color1: maroon;
+    --color2: yellow;
+}
+
 * { box-sizing: border-box;
     padding: 0px; margin: 0px;
     font-family: "Roboto", Helvetica, sans-serif; font-size: 18px;
 }
 
-:root{
-    --marginSize: 20px;
+h1 {
+    color: rgba(0, 0, 0, 0.685);   
+    padding: var(--marginSize);
 }
 
-h1 {
-    color: rgba(0, 0, 0, 0.685);
+h2, p {
+    color: rgba(0, 0, 0, 0.685);   
+    padding: var(--marginSize) var(--marginSize) 0;
+}
+
+@media (max-width: 575.98px) {
+    .invisible {
+        visibility: visible !important;
+      }
 }
