@@ -20,6 +20,10 @@ h2, p {
     padding: var(--marginSize) var(--marginSize) 0;
 }
 
+#link {
+    margin-top: -30px;
+}
+
 @media (max-width: 575.98px) {
     .invisible {
         visibility: visible !important;
