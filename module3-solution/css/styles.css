@@ -24,6 +24,14 @@ h2, p {
     margin-top: -30px;
 }
 
+#chicken, #beef, #sushi {
+    padding: var(--marginSize);
+}
+
+.coluninha {
+    padding: var(--marginSize);
+}
+
 @media (max-width: 575.98px) {
     .invisible {
         visibility: visible !important;
