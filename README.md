@@ -13,6 +13,6 @@ Introduction to Javascript and IIFE
 https://totoledao.github.io/cousera-web-development/module4-solution/
 <br>
 <br>
-Introduction to AJAX
+Introduction to AJAX and SPA
 <br>
 https://totoledao.github.io/cousera-web-development/module5-solution/
